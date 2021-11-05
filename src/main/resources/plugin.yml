@@ -1,0 +1,20 @@
+name: ThiccWiki
+version: '${project.version}'
+main: com.qtpc.tech.thiccwiki.ThiccWiki
+api-version: 1.17
+website: https://thiccsmp.qtpc.tech
+
+loadbefore:
+  - DiscordSRV
+
+commands:
+  wiki:
+    description: "Thicc SMP Wiki"
+  discord:
+    description: "Thicc SMP Discord"
+  ip:
+    description: "Show all of the IPs of the SMP"
+  enderman:
+    description: "seg enderman"
+  donate:
+    description: "Donate information"
