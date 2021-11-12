@@ -14,8 +14,7 @@ public class ip implements CommandExecutor{
         sender.sendMessage("---------------------------");
         sender.sendMessage("Server IPs:");
         sender.sendMessage(" ");
-        sender.sendMessage("Java: " + ChatColor.AQUA + "thiccsmp.qtpc.tech");
-        sender.sendMessage("Bedrock: " + ChatColor.AQUA + "bedrock.qtpc.tech");
+        sender.sendMessage("Java + Bedrock: " + ChatColor.AQUA + "thiccsmp.qtpc.tech");
         sender.sendMessage("---------------------------");
         return true;
     }
