@@ -5,6 +5,7 @@ api-version: 1.17
 website: https://thiccsmp.qtpc.tech
 
 loadbefore:
+  - Essentials
   - DiscordSRV
 
 commands:
@@ -18,3 +19,9 @@ commands:
     description: "seg enderman"
   donate:
     description: "Donate information"
+  gachsmp:
+    description: "Trash"
+  rule:
+    description: "Thicc SMP Rules"
+  rules:
+    description: "Thicc SMP Rules"
