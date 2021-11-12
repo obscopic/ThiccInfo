@@ -13,6 +13,9 @@ public final class ThiccWiki extends JavaPlugin {
         this.getCommand("ip").setExecutor(new ip());
         this.getCommand("enderman").setExecutor(new endermanchvn());
         this.getCommand("donate").setExecutor(new donate());
+        this.getCommand("gachsmp").setExecutor(new gachsmp());
+        this.getCommand("rule").setExecutor(new rules());
+        this.getCommand("rules").setExecutor(new rules());
     }
 
     @Override
