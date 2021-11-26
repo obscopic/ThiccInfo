@@ -14,9 +14,10 @@ public class donate implements CommandExecutor{
         sender.sendMessage("---------------------------");
         sender.sendMessage("Donation methods:");
         sender.sendMessage(" ");
-        sender.sendMessage(ChatColor.AQUA + "PayPal" + ChatColor.WHITE + " (Preferred): https://paypal.com/qtpctechhxd");
+        sender.sendMessage(ChatColor.AQUA + "Phone Card" + ChatColor.WHITE + " (Vietnamese): /napthe");
         sender.sendMessage(ChatColor.AQUA + "PlayerDuo" + ChatColor.WHITE + " (Vietnamese): https://playerduo.com/qtpctechhxd");
         sender.sendMessage(ChatColor.AQUA + "Bank" + ChatColor.WHITE + " (Vietnamese): 1120112358 - Trần Thị Thản - MB Bank");
+        sender.sendMessage(ChatColor.AQUA + "PayPal" + ChatColor.WHITE + ": https://paypal.com/qtpctechhxd");
         sender.sendMessage("---------------------------");
         return true;
     }
